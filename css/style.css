@@ -1,6 +1,13 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 body {
   text-align: center;
+  margin: 0 auto;
 }
+
 body h1 img {
   border-radius: 50%;
   border: 3px solid black;
@@ -13,4 +20,9 @@ h1 {
   border-bottom: 1px solid rgb(83, 110, 230);
   display: flex;
   flex-direction: column;
+}
+
+h2 {
+  border-bottom: 1px solid #000;
+  margin-top: 64px;
 }
